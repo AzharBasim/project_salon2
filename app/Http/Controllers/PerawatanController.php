@@ -15,7 +15,7 @@ class PerawatanController extends Controller
     {
         {
             $perawatan = perawatan::all();
-            return view ('/perawatan/index', compact ('reservasis')     );
+            return view ('/perawatan/index', compact ('reservasis')    );
         }
     }
 
